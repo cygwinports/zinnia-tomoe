@@ -1,0 +1,8 @@
+--- origsrc/zinnia-tomoe-0.6.0-20080911/Makefile.am	2008-09-13 11:59:31.000000000 -0500
++++ src/zinnia-tomoe-0.6.0-20080911/Makefile.am	2011-10-03 14:48:38.671651900 -0500
+@@ -5,4 +5,4 @@ CLEANFILES = *.model *.model.tmp
+ SUFFIXES = .txt .model
+ 
+ @ZINNIA_GENDATA@:
+-	@ZINNIA_CONVERT@ $*.model.txt $@
++	@ZINNIA_CONVERT@ $(srcdir)/$*.model.txt $@

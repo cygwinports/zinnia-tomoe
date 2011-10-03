@@ -1,0 +1,6 @@
+DESCRIPTION="Handwriting recognition system"
+HOMEPAGE="http://zinnia.sourceforge.net/"
+SRC_URI="mirror://sourceforge/zinnia/${P/_/-}.tar.bz2"
+SRC_DIR=${P/_/-}
+
+PATCH_URI="0.6.0-vpath.patch"
